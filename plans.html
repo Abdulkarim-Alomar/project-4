@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <!-- Render  All Elements Normally-->
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <!-- Framework File -->
+    <link rel="stylesheet" href="CSS/framework.css">
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="CSS/Dashboard.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="page d-flex">
+        <aside class=" side bg-white p-10 p-relative">
+            <h3 class="p-relative txt-c mt-0">A.K.M</h3>
+            <ul class="t-transform-c">
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="index.html">
+                        <i class="fa-regular fa-chart-bar fa-fw"></i>
+                        <span class="fs-14 ml-10 hide-mobile">dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="Setting.html">
+                        <i class="fa-solid fa-gear fa-fw"></i>
+                        <span class="fs-14 ml-10 hide-mobile">setting</span>
+                    </a>
+                </li>
+                <li>
+                    <a class=" d-flex align-center fs-14 c-black rad-6 p-10" href="profile.html">
+                        <i class="fa-regular fa-user fa-fw"></i>
+                        <span class="fs-14 ml-10 hide-mobile">profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="projects.html">
+                        <i class="fa-solid fa-diagram-project fa-fw"></i>
+                        <span class="fs-14 ml-10 hide-mobile">projects</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="courses.html">
+                        <i class="fa-solid fa-graduation-cap fa-fw"></i>
+                        <span class="fs-14 ml-10 hide-mobile">course</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="friends.html">
+                        <i class="fa-regular fa-circle-user fa-fw"></i>
+                        <span class="fs-14 ml-10 hide-mobile">friends</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="files.html">
+                        <i class="fa-regular fa-file fa-fw"></i>
+                        <span class="fs-14 ml-10 hide-mobile">file</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="active d-flex align-center fs-14 c-black rad-6 p-10" href="plans.html">
+                        <i class="fa-regular fa-credit-card fa-fw"></i>
+                        <span class="fs-14 ml-10 hide-mobile">plan</span>
+                    </a>
+                </li>
+            </ul>
+        </aside>
+        <div class="content w-full flew-hidden">
+            <!-- Start head -->
+            <div class="head bg-white p-15 between-flex">
+                <div class="search p-relative">
+                    <input class="p-10 rad-10 border-ccc ml-5" type="search" placeholder="Type A Keyword">
+                </div>
+                <div class="icons d-flex align-center">
+                    <span class="notification p-relative">
+                        <i class="fa-regular fa-bell fa-lg"></i>
+                    </span>
+                    <img src="/images/avatar.png" alt="">
+                </div>
+            </div>
+            <!-- End head -->
+            <h1 class="p-relative t-transform-c">plans</h1>
+            <div class="plans-page d-grid gab-20 m-20 ">
+                <div class="plan free bg-white p-20 t-transform-c">
+                    <div class="top bg-green p-20 txt-c c-white">
+                        <h2>free</h2>
+                        <div class="price p-relative w-fit"><span>$</span>0.00</div>
+                    </div>
+                    <ul>
+                        <li class="d-flex align-center fs-15 border-bottom-eee p-relative">
+                            <i class="fa-solid fa-check fa-fw mr-5 yes"></i>
+                            <span>access all text lessons</span>
+                            <i class="fa-solid fa-circle-info help"></i>
+                            <span class="tooltip rad-6">tooltip</span>
+                        </li>
+                        <li class="d-flex align-center fs-15 border-bottom-eee p-relative">
+                            <i class="fa-solid fa-check fa-fw mr-5 yes"></i>
+                            <span>access all videos lessons</span>
+                            <i class="fa-solid fa-circle-info help"></i>
+                            <span class="tooltip rad-6">tooltip</span>
+                        </li>
+                        <li class="d-flex align-center fs-15 border-bottom-eee p-relative">
+                            <i class="fa-solid fa-check fa-fw mr-5 yes"></i>
+                            <span>appear on leaderboard</span>
+                            <i class="fa-solid fa-circle-info help"></i>
+                            <span class="tooltip rad-6">tooltip</span>
+                        </li>
+                        <li class="d-flex align-center fs-15 border-bottom-eee p-relative">
+                            <i class="fa-solid fa-xmark fa-fw mr-5"></i>
+                            <span>browse content without ads</span>
+                            <i class="fa-solid fa-circle-info help"></i>
+                            <span class="tooltip rad-6">tooltip</span>
+                        </li>
+                        <li class="d-flex align-center fs-15 border-bottom-eee p-relative">
+                            <i class="fa-solid fa-xmark fa-fw mr-5"></i>
+                            <span>access all assignments</span>
+                            <i class="fa-solid fa-circle-info help"></i>
+                            <span class="tooltip rad-6">tooltip</span>
+                        </li>
+                        <li class="d-flex align-center fs-15 border-bottom-eee p-relative">
+                            <i class="fa-solid fa-xmark fa-fw mr-5"></i>
+                            <span>get daily prizes</span>
+                            <i class="fa-solid fa-circle-info help"></i>
+                            <span class="tooltip rad-6">tooltip</span>
+                        </li>
+                        <li class="d-flex align-center fs-15 border-bottom-eee p-relative">
+                            <i class="fa-solid fa-xmark fa-fw mr-5"></i>
+                            <span>earn certificate</span>
+                            <i class="fa-solid fa-circle-info help"></i>
+                            <span class="tooltip rad-6">tooltip</span>
+                        </li>
+                        <li class="d-flex align-center fs-15 border-bottom-eee p-relative">
+                            <i class="fa-solid fa-xmark fa-fw mr-5"></i>
+                            <span>1 gB space for hosting files</span>
+                            <i class="fa-solid fa-circle-info help"></i>
+                            <span class="tooltip rad-6">tooltip</span>
+                        </li>
+                        <li class="d-flex align-center fs-15 border-bottom-eee p-relative">
+                            <i class="fa-solid fa-xmark fa-fw mr-5"></i>
+                            <span>access badge system</span>
+                            <i class="fa-solid fa-circle-info help"></i>
+                            <span class="tooltip rad-6">tooltip</span>
+                        </li>
+                    </ul>
+                    <a href="#" class="btn-shape bg-green c-white d-block w-fit">Join</a>
+                </div>
+                <div class="plan basic bg-white p-20 t-transform-c">
+                    <div class="top bg-blue p-20 txt-c c-white">
+                        <h2>basic</h2>
+                        <div class="price p-relative w-fit"><span>$</span>7.99</div>
+                    </div>
+                    <ul>
+                        <li class="d-flex align-center fs-15 border-bottom-eee p-relative">
+                            <i class="fa-solid fa-check fa-fw mr-5 yes"></i>
+                            <span>access all text lessons</span>
+                            <i class="fa-solid fa-circle-info help"></i>
+                            <span class="tooltip rad-6">tooltip</span>
+                        </li>
+                        <li class="d-flex align-center fs-15 border-bottom-eee p-relative">
+                            <i class="fa-solid fa-check fa-fw mr-5 yes"></i>
+                            <span>access all videos lessons</span>
+                            <i class="fa-solid fa-circle-info help"></i>
+                            <span class="tooltip rad-6">tooltip</span>
+                        </li>
+                        <li class="d-flex align-center fs-15 border-bottom-eee p-relative">
+                            <i class="fa-solid fa-check fa-fw mr-5 yes"></i>
+                            <span>appear on leaderboard</span>
+                            <i class="fa-solid fa-circle-info help"></i>
+                            <span class="tooltip rad-6">tooltip</span>
+                        </li>
+                        <li class="d-flex align-center fs-15 border-bottom-eee p-relative">
+                            <i class="fa-solid fa-check fa-fw mr-5 yes"></i>
+                            <span>browse content without ads</span>
+                            <i class="fa-solid fa-circle-info help"></i>
+                            <span class="tooltip rad-6">tooltip</span>
+                        </li>
+                        <li class="d-flex align-center fs-15 border-bottom-eee p-relative">
+                            <i class="fa-solid fa-check fa-fw mr-5 yes"></i>
+                            <span>access all assignments</span>
+                            <i class="fa-solid fa-circle-info help"></i>
+                            <span class="tooltip rad-6">tooltip</span>
+                        </li>
+                        <li class="d-flex align-center fs-15 border-bottom-eee p-relative">
+                            <i class="fa-solid fa-check fa-fw mr-5 yes"></i>
+                            <span>get daily prizes</span>
+                            <i class="fa-solid fa-circle-info help"></i>
+                            <span class="tooltip rad-6">tooltip</span>
+                        </li>
+                        <li class="d-flex align-center fs-15 border-bottom-eee p-relative">
+                            <i class="fa-solid fa-check fa-fw mr-5 yes"></i>
+                            <span>earn certificate</span>
+                            <i class="fa-solid fa-circle-info help"></i>
+                            <span class="tooltip rad-6">tooltip</span>
+                        </li>
+                        <li class="d-flex align-center fs-15 border-bottom-eee p-relative">
+                            <i class="fa-solid fa-xmark fa-fw mr-5"></i>
+                            <span>1 gB space for hosting files</span>
+                            <i class="fa-solid fa-circle-info help"></i>
+                            <span class="tooltip rad-6">tooltip</span>
+                        </li>
+                        <li class="d-flex align-center fs-15 border-bottom-eee p-relative">
+                            <i class="fa-solid fa-xmark fa-fw mr-5"></i>
+                            <span>access badge system</span>
+                            <i class="fa-solid fa-circle-info help"></i>
+                            <span class="tooltip rad-6">tooltip</span>
+                        </li>
+                    </ul>
+                    <a href="#" class="btn-shape bg-blue c-white d-block w-fit">Join</a>
+                </div>
+                <div class="plan premium bg-white p-20 t-transform-c">
+                    <div class="top bg-orange p-20 txt-c c-white">
+                        <h2>premium</h2>
+                        <div class="price p-relative w-fit"><span>$</span>19.99</div>
+                    </div>
+                    <ul>
+                        <li class="d-flex align-center fs-15 border-bottom-eee p-relative">
+                            <i class="fa-solid fa-check fa-fw mr-5 yes"></i>
+                            <span>access all text lessons</span>
+                            <i class="fa-solid fa-circle-info help"></i>
+                            <span class="tooltip rad-6">tooltip</span>
+                        </li>
+                        <li class="d-flex align-center fs-15 border-bottom-eee p-relative">
+                            <i class="fa-solid fa-check fa-fw mr-5 yes"></i>
+                            <span>access all videos lessons</span>
+                            <i class="fa-solid fa-circle-info help"></i>
+                            <span class="tooltip rad-6">tooltip</span>
+                        </li>
+                        <li class="d-flex align-center fs-15 border-bottom-eee p-relative">
+                            <i class="fa-solid fa-check fa-fw mr-5 yes"></i>
+                            <span>appear on leaderboard</span>
+                            <i class="fa-solid fa-circle-info help"></i>
+                            <span class="tooltip rad-6">tooltip</span>
+                        </li>
+                        <li class="d-flex align-center fs-15 border-bottom-eee p-relative">
+                            <i class="fa-solid fa-check fa-fw mr-5 yes"></i>
+                            <span>browse content without ads</span>
+                            <i class="fa-solid fa-circle-info help"></i>
+                            <span class="tooltip rad-6">tooltip</span>
+                        </li>
+                        <li class="d-flex align-center fs-15 border-bottom-eee p-relative">
+                            <i class="fa-solid fa-check fa-fw mr-5 yes"></i>
+                            <span>access all assignments</span>
+                            <i class="fa-solid fa-circle-info help"></i>
+                            <span class="tooltip rad-6">tooltip</span>
+                        </li>
+                        <li class="d-flex align-center fs-15 border-bottom-eee p-relative">
+                            <i class="fa-solid fa-check fa-fw mr-5 yes"></i>
+                            <span>get daily prizes</span>
+                            <i class="fa-solid fa-circle-info help"></i>
+                            <span class="tooltip rad-6">tooltip</span>
+                        </li>
+                        <li class="d-flex align-center fs-15 border-bottom-eee p-relative">
+                            <i class="fa-solid fa-check fa-fw mr-5 yes"></i>
+                            <span>earn certificate</span>
+                            <i class="fa-solid fa-circle-info help"></i>
+                            <span class="tooltip rad-6">tooltip</span>
+                        </li>
+                        <li class="d-flex align-center fs-15 border-bottom-eee p-relative">
+                            <i class="fa-solid fa-check fa-fw mr-5 yes"></i>
+                            <span>1 gB space for hosting files</span>
+                            <i class="fa-solid fa-circle-info help"></i>
+                            <span class="tooltip rad-6">tooltip</span>
+                        </li>
+                        <li class="d-flex align-center fs-15 border-bottom-eee p-relative">
+                            <i class="fa-solid fa-check fa-fw mr-5 yes"></i>
+                            <span>access badge system</span>
+                            <i class="fa-solid fa-circle-info help"></i>
+                            <span class="tooltip rad-6">tooltip</span>
+                        </li>
+                    </ul>
+                    <a href="#" class="btn-shape bg-orange c-white d-block w-fit">Join</a>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
